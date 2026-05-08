@@ -1,0 +1,55 @@
+body {
+  background-color: peru;
+  padding: 10px;
+}
+
+/* all elements with class head */
+.head {
+  color: darkblue;
+}
+
+/* second heading */
+#bglime {
+  background-color: rgb(172, 255, 172);
+}
+
+/* word "head" inside h2 */
+#bglime span {
+  color: red;
+}
+
+/* paragraph styling */
+p {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* second paragraph */
+#para {
+  color: darkgreen;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* word paragraph in third paragraph */
+.paragraph {
+  color: black;
+  font-size: 28px;
+}
+
+/* anchor styling without class/id */
+a {
+  background-color: lime;
+  color: blue;
+}
+
+/* second li */
+ol li:nth-child(2) {
+  color: blue;
+}
+
+/* third li */
+ol li:nth-child(3) {
+  color: red;
+}
